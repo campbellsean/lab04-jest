@@ -23,3 +23,13 @@ describe('invertCase() function', function() {
     });
 
 })
+
+describe('button displays correctly', function() {
+    
+        it('Button Displayed', function() {
+            // let button = document.querySelector('button');
+            document.querySelector('#panic-button').click();
+            expect(h1.textContent).toEqual('Red Alert!');
+        });
+    
+    })
